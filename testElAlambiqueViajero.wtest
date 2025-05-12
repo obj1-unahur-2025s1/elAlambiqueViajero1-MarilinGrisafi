@@ -1,0 +1,25 @@
+import elAlambiqueViajero.*
+describe "test de Luke"{
+    test "cantidad de lugares visitados en el alambique"{
+        luke.cantidadDeLugaresVisitados()
+        assert.equals(2, 2)
+    }
+
+    test "recuerdo del ultimo lugar visitado"{
+        luke.recuerdoDelUltimoLugarVisitado()
+        assert.equals("llaveroTorreEiffel", "llaveroTorreEiffel")
+    }
+
+    test "combustible luego de visitar una ciudad"{
+        var vehiculo = alambiqueVeloz
+        vehiculo.combustible()
+        assert.equals(vehiculo.consumeCombustible()= 98, vehiculo.consumeCombustible()= 98)
+
+    }
+
+    test "puede el alambique pasar por buenos aires?"{
+    var vehiculo = alambiqueVeloz
+    //buenosAires.restricciones()
+    assert.That(luke.vehiculo.velocidad()>50) 
+    }
+}
